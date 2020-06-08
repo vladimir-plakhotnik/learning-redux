@@ -6,7 +6,7 @@ Redux architecture revolves around a strict unidirectional data flow.
 
 The data lifecycle in any Redux app follows these 4 steps:
 
-1. You call store.dispatch(action). 
+1. You call `store.dispatch(action)`. 
 An action is a plain object describing what happened.
 
 2. The Redux store calls the reducer function you gave it.
