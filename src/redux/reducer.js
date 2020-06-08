@@ -1,14 +1,23 @@
 import { SAVE, CLEAR } from "./types";
 
-const reducer = (state = [], action) => {
+const initialState = {
+    saved: [],
+}
 
+const reducer = (state = initialState, action) => {
     switch(action.type) {
         case SAVE:
-            state.push(action.payload);
-            return state;
+            return { 
+                ...state, 
+                saved: [
+                    ...state.saved || [], action.payload
+                ],
+            }
         case CLEAR:
-            state = [];
-            return state;
+            return {
+                ...state,
+                saved: [],
+            }
         default:
             return state;
     }

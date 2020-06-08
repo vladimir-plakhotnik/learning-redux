@@ -10,7 +10,7 @@ const output = document.getElementById("output");
 const store = createStore(reducer);
 
 store.subscribe(() => {
-    output.innerText = store.getState().join("\n");
+    output.innerText = store.getState().saved.join("\n");
 })
 
 save.addEventListener("click", () => {

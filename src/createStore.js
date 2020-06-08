@@ -1,6 +1,6 @@
 const createStore = reducer => {
 
-    let state = [];
+    let state = {};
     const subscribers = [];
 
     return {
