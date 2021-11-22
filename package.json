@@ -10,11 +10,11 @@
   "author": "Vladimir Plakhotnik <vn.plakhotnik@outlook.com>",
   "license": "ISC",
   "devDependencies": {
-    "css-loader": "^3.5.3",
-    "style-loader": "^1.2.1",
-    "html-webpack-plugin": "^4.3.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
   }
 }
